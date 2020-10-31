@@ -45,7 +45,7 @@ function setup() {
 }
 
 function draw() {
-  background(250);
+  background(180);
   
   score = score + Math.round(getFrameRate()/60);
   text("Score: "+ score, 500,50);
